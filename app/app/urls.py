@@ -15,7 +15,6 @@ Including another URLconf
 """
 
 from django import urls
-from app import recipe
 from django.contrib import admin
 from django.urls import path,include
 

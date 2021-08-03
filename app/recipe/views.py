@@ -1,5 +1,4 @@
 from rest_framework.serializers import Serializer
-from app.core.models import User
 from rest_framework import mixins,viewsets
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import  IsAuthenticated
