@@ -9,11 +9,14 @@ from recipe import views
 router = DefaultRouter()
 router.register('views', views.TagViewSet)
 router.register('ingredients', views.IngViewset)
+router.register('recipes',views.RecipeViewset)
 
 app_name = "recipe"
 urlpatterns = [
     path('',include(router.urls)),
     path('ingredients',views.IngViewset),
     path('tag',views.TagViewSet),
+    
+    
 ]
 
